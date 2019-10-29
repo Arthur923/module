@@ -1,0 +1,37 @@
+.object {
+	position: absolute;
+}
+
+.oval {
+	width: 200px;
+	height:100px;
+	background: red;
+	border-radius: 100px/50px;
+	top:5%;
+	left:5%;	
+}
+.move-right{
+	transform: translate(1000px,480px) rotate(360deg);
+}
+.move-down {
+	transform:translate(0px,-180px) translate(-500px,0px)	
+	
+} 
+.object {
+	position: absolute;
+	transition: all 5s ease-in-out;
+}
+.oval2 {
+	width: 200px;
+	height:100px;
+	background: red;
+	border-radius: 100px/50px;
+	top:80%;
+	left:5%;	
+}
+.move-left{
+	transform: translate(1000px,-500px) rotate(360deg);
+} 
+.oval.move-top{
+	transform: translateY(-100px); 
+}
